@@ -1,26 +1,85 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import TableroPrincipal from "./components/PantallaPrincipal/TableroPrincipal";
+
+// [
+//     {
+//         letra: "h",
+//         numero: 8,
+//         color: "#a06942",
+//         nombre: "torre",
+//         image: "",
+//     },
+// ],
+// [
+//     {
+//         letra: "g",
+//         numero: 8,
+//         color: "#F5F5DC",
+//         nombre: "caballo",
+//         image: "",
+//     },
+// ],
+// [
+//     {
+//         letra: "f",
+//         numero: 8,
+//         color: "#a06942",
+//         nombre: "alfil",
+//         image: "",
+//     },
+// ],
+// [
+//     {
+//         letra: "e",
+//         numero: 8,
+//         color: "#F5F5DC",
+//         nombre: "rey",
+//         image: "",
+//     },
+// ],
+// [
+//     {
+//         letra: "d",
+//         numero: 8,
+//         color: "#a06942",
+//         nombre: "reina",
+//         image: "",
+//     },
+// ],
+// [
+//     {
+//         letra: "c",
+//         numero: 8,
+//         color: "#F5F5DC",
+//         nombre: "alfil",
+//         image: "",
+//     },
+// ],
+// [
+//     {
+//         letra: "b",
+//         numero: 8,
+//         color: "#a06942",
+//         nombre: "caballo",
+//         image: "",
+//     },
+// ],
+// [
+//     {
+//         letra: "a",
+//         numero: 8,
+//         color: "#F5F5DC",
+//         nombre: "torre",
+//         image: "",
+//     },
+// ],
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <TableroPrincipal />
+        </div>
+    );
 }
 
 export default App;

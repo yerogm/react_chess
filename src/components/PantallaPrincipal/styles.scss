@@ -1,0 +1,45 @@
+body {
+    background-color: #2c2c2c;
+}
+
+.tablero {
+    width: 600px;
+    aspect-ratio: 1;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .fila {
+        width: 100%;
+        display: flex;
+
+        .celda {
+            width: 100%;
+            aspect-ratio: 1;
+            position: relative;
+
+            .celda-letra {
+                color: brown;
+                position: absolute;
+                bottom: 5px;
+                left: 5px;
+            }
+            .celda-numero {
+                color: brown;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+            }
+            .icono {
+                margin: auto;
+                height: 60px;
+                margin-left: 5px;
+                svg {
+                    height: 60px;
+                    fill: red;
+                }
+            }
+        }
+    }
+}
